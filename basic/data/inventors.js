@@ -1,0 +1,22 @@
+const inventors = [
+  { id: '1f4d2e9a-8c4a-4a5b-9f7c-1b2a3d4e5f01', first: 'Niels', last: 'Bohr', year: 1885 },
+  { id: '2a7c3b1e-5d6f-4c9a-8e2d-3f4b5c6d7e02', first: 'Erwin', last: 'Schrödinger', year: 1887 },
+  { id: '3b8d4c2f-6e7a-4d1b-9c3e-4a5b6c7d8e03', first: 'Werner', last: 'Heisenberg', year: 1901 },
+  { id: '4c9e5d30-7f8b-4e2c-a4f5-5b6c7d8e9f04', first: 'Richard', last: 'Feynman', year: 1918 },
+  { id: '5d0f6e41-8a9c-4f3d-b506-6c7d8e9f0a05', first: 'Stephen', last: 'Hawking', year: 1942 },
+  { id: '6e1a7f52-9b0d-4a4e-c617-7d8e9f0a1b06', first: 'Paul', last: 'Dirac', year: 1902 },
+  { id: '7f2b8a63-0c1e-4b5f-d728-8e9f0a1b2c07', first: 'Enrico', last: 'Fermi', year: 1901 },
+  { id: '8a3c9b74-1d2f-4c6a-e839-9f0a1b2c3d08', first: 'James', last: 'Maxwell', year: 1831 },
+  { id: '9b4d0c85-2e3a-4d7b-f94a-0a1b2c3d4e09', first: 'Michael', last: 'Faraday', year: 1791 },
+  { id: '0c5e1d96-3f4b-4e8c-0a5b-1b2c3d4e5f10', first: 'Leonhard', last: 'Euler', year: 1707 },
+  { id: '1d6f2ea7-4a5c-4f9d-1b6c-2c3d4e5f6a11', first: 'Carl', last: 'Gauss', year: 1777 },
+  { id: '2e7a3fb8-5b6d-4a0e-2c7d-3d4e5f6a7b12', first: 'Alan', last: 'Turing', year: 1912 },
+  { id: '3f8b4ac9-6c7e-4b1f-3d8e-4e5f6a7b8c13', first: 'Ada', last: 'Lovelace', year: 1815 },
+  { id: '4a9c5bda-7d8f-4c2a-4e9f-5f6a7b8c9d14', first: 'John', last: 'von Neumann', year: 1903 },
+  { id: '5b0d6ceb-8e9a-4d3b-5f0a-6a7b8c9d0e15', first: 'Katherine', last: 'Johnson', year: 1918 },
+  { id: '6c1e7dfc-9f0b-4e4c-6a1b-7b8c9d0e1f16', first: 'Rosalind', last: 'Franklin', year: 1920 },
+  { id: '7d2f8e0d-0a1c-4f5d-7b2c-8c9d0e1f2a17', first: 'Grace', last: 'Hopper', year: 1906 },
+  { id: '8e3a9f1e-1b2d-4a6e-8c3d-9d0e1f2a3b18', first: 'Tim', last: 'Berners-Lee', year: 1955 },
+  { id: '9f4b0a2f-2c3e-4b7f-9d4e-0e1f2a3b4c19', first: 'Dennis', last: 'Ritchie', year: 1941 },
+  { id: '0a5c1b30-3d4f-4c8a-0e5f-1f2a3b4c5d20', first: 'Linus', last: 'Torvalds', year: 1969 }
+]
