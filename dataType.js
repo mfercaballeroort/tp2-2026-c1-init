@@ -33,4 +33,18 @@ let micasa;
 micasa = "Mi casa es tu casa";
 console.log("micasa", micasa);
 
-// Objectos: como se declaran y se usan
+// Objetos: como se declaran y se usan
+let persona = {
+    nombre: "Juan",
+    edad: 30,
+    ciudad: "Madrid"
+};
+
+console.log("persona", persona);
+// Accediendo a las propiedades con notación de punto
+console.log("nombre", persona.nombre);
+// Accediendo mediante notación de corchetes
+console.log("edad", persona["edad"]);
+
+persona.nombre = "Pedro";
+
