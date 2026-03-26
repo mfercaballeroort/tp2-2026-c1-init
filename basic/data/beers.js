@@ -4,7 +4,12 @@ const beers = [
     { name: 'Darkness', abv: 4.2, label: 'https://s3.amazonaws.com/brewerydbapi/beer/lnxbIV/upload_idNXFf-large.png', type: 'Stout' },
     { name: 'Belgian Wit', abv: 5.4, label: 'https://s3.amazonaws.com/brewerydbapi/beer/3CvVQG/upload_xOMnlK-large.png', type: 'Wheat' },
     { name: 'Stolen Fruit', abv: 4.6, label: 'https://s3.amazonaws.com/brewerydbapi/beer/YGT30k/upload_uVCHP7-large.png', type: 'Wheat' },
-]
+];
+
+export function getPrice(abv, name){
+    console.log("getprice");
+}
+
 
 /** TODO **
  * En el siguiente array de objetos (beers)
@@ -17,3 +22,5 @@ const beers = [
  * 3.- Desarrollo una funcion que ordene por tipo (type)
  * 
  * **/
+
+export default beers;
