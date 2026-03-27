@@ -12,6 +12,9 @@
 
 import beers from "./data/beers.js";
 import { getPrice } from "./data/beers.js";
+import fs from "fs";
+
+fs.readFile
 
 console.log(beers);
 getPrice();

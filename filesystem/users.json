@@ -1,0 +1,182 @@
+[
+  {
+    "id": "1f3a9c2e-01",
+    "nombre": "Juan",
+    "apellido": "Pérez",
+    "email": "juan.perez@example.com",
+    "edad": 32,
+    "pais": "Argentina",
+    "activo": true
+  },
+  {
+    "id": "1f3a9c2e-02",
+    "nombre": "María",
+    "apellido": "Gómez",
+    "email": "maria.gomez@example.com",
+    "edad": 28,
+    "pais": "Argentina",
+    "activo": true
+  },
+  {
+    "id": "1f3a9c2e-03",
+    "nombre": "Carlos",
+    "apellido": "López",
+    "email": "carlos.lopez@example.com",
+    "edad": 40,
+    "pais": "Chile",
+    "activo": false
+  },
+  {
+    "id": "1f3a9c2e-04",
+    "nombre": "Ana",
+    "apellido": "Martínez",
+    "email": "ana.martinez@example.com",
+    "edad": 35,
+    "pais": "Uruguay",
+    "activo": true
+  },
+  {
+    "id": "1f3a9c2e-05",
+    "nombre": "Luis",
+    "apellido": "Fernández",
+    "email": "luis.fernandez@example.com",
+    "edad": 29,
+    "pais": "Argentina",
+    "activo": true
+  },
+  {
+    "id": "1f3a9c2e-06",
+    "nombre": "Sofía",
+    "apellido": "Ramírez",
+    "email": "sofia.ramirez@example.com",
+    "edad": 31,
+    "pais": "Perú",
+    "activo": false
+  },
+  {
+    "id": "1f3a9c2e-07",
+    "nombre": "Diego",
+    "apellido": "Torres",
+    "email": "diego.torres@example.com",
+    "edad": 45,
+    "pais": "México",
+    "activo": true
+  },
+  {
+    "id": "1f3a9c2e-08",
+    "nombre": "Valentina",
+    "apellido": "Suárez",
+    "email": "valentina.suarez@example.com",
+    "edad": 27,
+    "pais": "Argentina",
+    "activo": true
+  },
+  {
+    "id": "1f3a9c2e-09",
+    "nombre": "Pedro",
+    "apellido": "Castro",
+    "email": "pedro.castro@example.com",
+    "edad": 38,
+    "pais": "Colombia",
+    "activo": false
+  },
+  {
+    "id": "1f3a9c2e-10",
+    "nombre": "Lucía",
+    "apellido": "Ortega",
+    "email": "lucia.ortega@example.com",
+    "edad": 33,
+    "pais": "España",
+    "activo": true
+  },
+  {
+    "id": "1f3a9c2e-11",
+    "nombre": "Martín",
+    "apellido": "Ruiz",
+    "email": "martin.ruiz@example.com",
+    "edad": 36,
+    "pais": "Argentina",
+    "activo": true
+  },
+  {
+    "id": "1f3a9c2e-12",
+    "nombre": "Camila",
+    "apellido": "Silva",
+    "email": "camila.silva@example.com",
+    "edad": 26,
+    "pais": "Chile",
+    "activo": false
+  },
+  {
+    "id": "1f3a9c2e-13",
+    "nombre": "Javier",
+    "apellido": "Morales",
+    "email": "javier.morales@example.com",
+    "edad": 41,
+    "pais": "México",
+    "activo": true
+  },
+  {
+    "id": "1f3a9c2e-14",
+    "nombre": "Florencia",
+    "apellido": "Ríos",
+    "email": "florencia.rios@example.com",
+    "edad": 30,
+    "pais": "Argentina",
+    "activo": true
+  },
+  {
+    "id": "1f3a9c2e-15",
+    "nombre": "Andrés",
+    "apellido": "Vega",
+    "email": "andres.vega@example.com",
+    "edad": 39,
+    "pais": "Perú",
+    "activo": false
+  },
+  {
+    "id": "1f3a9c2e-16",
+    "nombre": "Paula",
+    "apellido": "Navarro",
+    "email": "paula.navarro@example.com",
+    "edad": 34,
+    "pais": "España",
+    "activo": true
+  },
+  {
+    "id": "1f3a9c2e-17",
+    "nombre": "Sebastián",
+    "apellido": "Herrera",
+    "email": "sebastian.herrera@example.com",
+    "edad": 37,
+    "pais": "Colombia",
+    "activo": true
+  },
+  {
+    "id": "1f3a9c2e-18",
+    "nombre": "Julieta",
+    "apellido": "Molina",
+    "email": "julieta.molina@example.com",
+    "edad": 25,
+    "pais": "Argentina",
+    "activo": true
+  },
+  {
+    "id": "1f3a9c2e-19",
+    "nombre": "Federico",
+    "apellido": "Cabrera",
+    "email": "federico.cabrera@example.com",
+    "edad": 42,
+    "pais": "Uruguay",
+    "activo": false
+  },
+  {
+    "id": "1f3a9c2e-20",
+    "nombre": "Natalia",
+    "apellido": "Ponce",
+    "email": "natalia.ponce@example.com",
+    "edad": 29,
+    "pais": "Argentina",
+    "activo": true
+  }
+]
