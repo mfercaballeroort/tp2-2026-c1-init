@@ -1,7 +1,7 @@
 # 🧪 Ejercicio CRUD con usuarios
 
 ## 🎯 Objetivo
-Trabajar con un archivo `usuarios.json` y desarrollar funciones para realizar operaciones CRUD (Create, Read, Update, Delete).
+Trabajar con un archivo `users.json` y desarrollar funciones para realizar operaciones CRUD (Create, Read, Update, Delete).
 
 ---
 
