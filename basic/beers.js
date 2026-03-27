@@ -9,9 +9,3 @@
  * 3.- Desarrollo una funcion que ordene por tipo (type)
  * 
  * **/
-
-import beers from "./data/beers.js";
-import { getPrice } from "./data/beers.js";
-
-console.log(beers);
-getPrice();
