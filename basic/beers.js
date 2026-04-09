@@ -11,10 +11,45 @@
  * **/
 
 import beers from "./data/beers.js";
-import { getPrice } from "./data/beers.js";
-import fs from "fs";
 
-fs.readFile
+// Ejercicio 1: Función para obtener precio según contenido de alcohol y ofertas especiales
+function getPrice(abv, name) {
+    if (name === 'Purple Iris') {
+        return 320;
+    }
+    return abv < 5.0 ? 300 : 350;
+}
 
-console.log(beers);
-getPrice();
+// Ejercicio 2: Función para agregar propiedad file_name desde la URL de label
+function addFileName(beersArray) {
+    return beersArray.map(beer => {
+        const urlParts = beer.label.split('/');
+        const fileName = urlParts[urlParts.length - 1];
+        return { ...beer, file_name: fileName };
+    });
+}
+
+// Ejercicio 3: Función para ordenar cervezas por tipo
+function sortByType(beersArray) {
+    return [...beersArray].sort((a, b) => a.type.localeCompare(b.type));
+}
+
+// Ejecutar los ejercicios
+// Ejercicio 1: Agregar precios a las cervezas
+const beersWithPrices = beers.map(beer => ({
+    ...beer,
+    price: getPrice(beer.abv, beer.name)
+}));
+
+console.log("Cervezas con precios:");
+console.log(beersWithPrices);
+
+// Ejercicio 2: Agregar propiedad file_name
+const beersWithFileName = addFileName(beers);
+console.log("\nCervezas con nombres de archivo:");
+console.log(beersWithFileName);
+
+// Ejercicio 3: Ordenar por tipo
+const sortedBeers = sortByType(beers);
+console.log("\nCervezas ordenadas por tipo:");
+console.log(sortedBeers);
