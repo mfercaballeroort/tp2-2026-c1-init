@@ -7,3 +7,5 @@ const data = fs.readFileSync("texto.txt", "utf-8");
 
 console.log(chalk.bgBlue(data));
 console.log(chalk.bgRed(data));
+console.log(chalk.bgGreen(data));
+

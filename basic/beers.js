@@ -9,3 +9,39 @@
  * 3.- Desarrollo una funcion que ordene por tipo (type)
  * 
  * **/
+<<<<<<< HEAD
+=======
+
+import beers from "./data/beers.js";
+import { getPrice } from "./data/beers.js";
+import fs from "fs";
+
+fs.readFile
+
+console.log(beers);
+getPrice();
+
+export function getPrice(abv, name) {
+    // 1. Excepción: Caso particular por nombre
+    if (name === 'Purple Iris') {
+        return 320;
+    }
+
+    // 2. Regla general por grado alcohólico (ABV)
+    if (abv < 5.0) {
+        return 300;
+    } else {
+        return 350;
+    }
+}
+
+// Importamos la función (si está en otro archivo) o la usamos directamente
+const beersConPrecio = beers.map(beer => {
+    return {
+        ...beer, // Usamos el spread operator para mantener los datos originales
+        price: getPrice(beer.abv, beer.name) // Invocamos tu función aquí
+    };
+});
+
+console.table(beersConPrecio);
+
